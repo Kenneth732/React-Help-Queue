@@ -2,6 +2,9 @@
 name of this application is name Queue
 # Application demo:
 https://www.dropbox.com/s/ma58v8tnbf9ef99/help-queue-light-dark-theme.gif?raw=1
+
+![help-queue-light-dark-theme](https://user-images.githubusercontent.com/81636030/212867664-449f328e-db2a-44c1-812a-47bc5f4c4630.gif)
+
 # Go live:
 to go live you can use yarn start or npm start: http://localhost:3000/
 # Passing Props
