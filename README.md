@@ -1,3 +1,7 @@
+# Help Queue
+name of this application is name Queue
+# Go live:
+to go live you can use yarn start or npm start
 # Passing Props
 We can pass props down to a child component using JSX tags. Let's update the TicketList.js component so it can pass props to its child Ticket.js component:
 
