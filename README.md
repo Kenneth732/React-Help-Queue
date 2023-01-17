@@ -1,5 +1,5 @@
 # Help Queue
-name of this application is name Queue
+name of this application is Help Queue
 # Application demo:
 https://www.dropbox.com/s/ma58v8tnbf9ef99/help-queue-light-dark-theme.gif?raw=1
 
