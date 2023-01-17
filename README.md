@@ -80,11 +80,11 @@ As a quick reminder, state is anything in an application that we need to store a
 
 
 # Creating and Updating State in a React Application
-As we discussed in the React Components lesson, class components have a constructor that looks like this:
-constructor(props) {
-  super(props);
-  this.state = {};
-}
+class components have a constructor that looks like this:
+# constructor(props) {
+#  super(props);
+#  this.state = {};
+#}
 
 
 
@@ -92,19 +92,19 @@ constructor(props) {
 
 Conditional rendering is exactly what it sounds like — using a conditional to determine what content should be rendered.
 
-  render(){
-    let currentlyVisibleState = null;
-    if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewTicketForm />
-    } else {
-      currentlyVisibleState = <TicketList />
-    }
-    return (
-      <React.Fragment>
-        {currentlyVisibleState}
-      </React.Fragment>
-    );
-  }
+#  render(){
+#    let currentlyVisibleState = null;
+#    if (this.state.formVisibleOnPage) {
+#      currentlyVisibleState = <NewTicketForm />
+#    } else {
+#      currentlyVisibleState = <TicketList />
+#    }
+#    return (
+#      <React.Fragment>
+#        {currentlyVisibleState}
+#      </React.Fragment>
+#    );
+#  }
 
   First, we create a variable called currentlyVisibleState and set it to null because we haven't determined which component should be rendered yet.
 
